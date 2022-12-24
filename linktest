@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap5 实例</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <h1>Link测试</h1>
+  <p>这是一些文本。</p> 
+</div>
+
+<div class="container">
+    <h2>代表指定意义的文本颜色</h2>
+    <p class="text-muted">柔和的文本。</p>
+    <p class="text-primary">重要的文本。</p>
+    <p class="text-success">执行成功的文本。</p>
+    <p class="text-info">代表一些提示信息的文本。</p>
+    <p class="text-warning">警告文本。</p>
+    <p class="text-danger">危险操作文本。</p>
+    <p class="text-secondary">副标题。</p>
+    <p class="text-dark">深灰色文字。</p>
+    <p class="text-body">默认颜色，为黑色。</p>
+    <p class="text-light">浅灰色文本（白色背景上看不清楚）。</p>
+    <p class="text-white">白色文本（白色背景上看不清楚）。</p>
+  </div>
+
+</body>
+</html>
